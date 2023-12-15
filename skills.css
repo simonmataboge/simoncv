@@ -1,0 +1,283 @@
+
+.sidenav {
+    margin-top: -95px;
+    padding: 30px;
+    background-image: url( image22.png);
+    width: 100%;
+    font-family: lato;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-left: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1000px ) {
+    .sidenav {
+        padding-left: 0px;
+        width: 560px;
+    }
+}
+
+
+
+.sidenav a:hover {
+    background-color: purple;
+    color: lime;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidenav a {
+    margin-left: 20px;
+    color: white;
+}
+
+@media screen and (max-width:1000px ) {
+    .sidenav a {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}
+
+
+img {
+    border-radius: 40%;
+}
+
+.sidenav img {
+    width: 70px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 0px;
+    float: right;
+}
+
+h2 {
+    margin-top: 50px;
+    padding: 30px;
+    background-image: url( image22.png);
+    width: 100%;
+    font-family: latin;
+    color: lime;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#skills {
+    margin-top: 100px;
+}
+
+.container img {
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+p {
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.contain {
+    width: 350px;
+    background-image: url( image22.png);
+    border: 2px solid #ccc;
+    padding: 10px;
+    position:;
+    right: 20px;
+    bottom: 0px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 580px;
+    margin-top: -412px;
+    color:white;
+}
+
+em {
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+h3 {
+    color: lime;
+    font-family: latin;
+}
+
+.personal {
+    margin-left: 140px;
+    width: 700px;
+    background-color: grey;
+    border: 2px solid #ccc;
+    padding: 10px;
+    position:;
+    top: 440px;
+}
+
+.skillset {
+    margin-left: 80px;
+    width: 500px;
+    background-image: url( image22.png);
+    border: 2px solid #ccc;
+    padding: 10px;
+    position:;
+    top: 50px;
+    color:white;
+    margin-top: 10px;
+}
+
+.py {
+    margin-left: 0px;
+    width: 80%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 2px
+}
+
+.js {
+    margin-left: 0px;
+    width: 70%;
+    background-color: green;
+    text-align: center;
+    margin-top: 2px
+}
+
+.vs {
+    margin-left: 0px;
+    width: 80%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 2px
+}
+
+.me {
+    margin-left: 0px;
+    width: 80%;
+    background-color: green;
+    text-align: center;
+    margin-top: 2px
+}
+
+.node {
+    margin-left: 0px;
+    width: 55%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 2px
+}
+
+.web {
+    margin-left: 0px;
+    width: 50%;
+    background-color: green;
+    text-align: center;
+    margin-top: 2px
+}
+
+.ply {
+    margin-left: 0px;
+    width: 90%;
+    background-color: green;
+    text-align: center;
+    margin-top: 2px
+}
+
+.al {
+    margin-left: 0px;
+    width: 93%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 2px
+}
+
+.comm {
+    margin-left: 0px;
+    width: 70%;
+    background-color: green;
+    text-align: center;
+    margin-top: 2px
+}
+
+.tm {
+    margin-left: 0px;
+    width: 85%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.cr {
+    margin-left: 0px;
+    width: 75%;
+    background-color: green;
+    text-align: center;
+    margin-top: 2px
+}
+
+.ho {
+    margin-left: 0px;
+    width: 79%;
+    background-color: blue;
+    text-align: center;
+}
+
+
+.fa {
+    color: lime;
+}
+
+
+
+
+.core {
+    margin-left: 590px;
+    margin-top: -410px;
+    background-image: url( image22.png);
+    width: 300px;
+    text-align: center;
+    color:white;
+}
+.core ul li{
+    list-style:none;
+}
+.detailed {
+    margin-left: 80px;
+    width: 500px;
+    background-image: url( image22.png);
+    margin-top: -530px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+#footer {
+    background-image: url( image22.png);
+    color: white;
+    padding: 12px;
+    margin-top: 0px;
+}

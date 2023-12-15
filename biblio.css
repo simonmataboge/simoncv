@@ -1,0 +1,115 @@
+
+.sidenav {
+    margin-top: -95px;
+    padding: 30px;
+    background-image: url( image22.png);
+    width: 100%;
+    font-family: lato;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-left: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1000px ) {
+    .sidenav {
+        padding-left: 0px;
+        width: 560px;
+    }
+}
+
+
+
+.sidenav a:hover {
+    background-color: purple;
+    color: lime;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidenav a {
+    margin-left: 20px;
+    color: white;
+}
+
+@media screen and (max-width:1000px ) {
+    .sidenav a {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}
+
+
+img {
+    border-radius: 40%;
+}
+
+.sidenav img {
+    width: 70px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 0px;
+    float: right;
+}
+
+#services {
+    margin-top: 90px;
+}
+#services ul li{
+    list-style:none;
+    padding:10px;
+}
+h2 {
+    margin-top: 20px;
+    padding: 30px;
+    background-image: url( image22.png);
+    width: 100%;
+    font-family: latin;
+    color: lime;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.services {
+    margin-left: 50px;
+    font-size: 12px;
+    font-family: latin:
+}
+
+h4, h6 {
+    text-align: center;
+}
+
+.logo {
+    margin-left: 500px;
+    margin-top: -480px;
+    width: 300px;
+}
+
+    .logo img {
+        width: 200px;
+        height: 200px;
+        border-radius: 2px;
+        margin-top: 10px;
+    }
+
+
+
+.fa {
+    color: lime;
+}
+
+
+
+
+
+#footer {
+    background-image: url( image22.png);
+    color: white;
+    padding: 12px;
+    margin-top: 70px;
+}

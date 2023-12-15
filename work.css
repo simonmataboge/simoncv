@@ -1,0 +1,119 @@
+
+.sidenav {
+    margin-top: -95px;
+    padding: 30px;
+    background-image: url( image22.png);
+    width: 100%;
+    font-family: lato;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-left: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1000px ) {
+    .sidenav {
+        padding-left: 0px;
+        width: 560px;
+    }
+}
+
+
+
+.sidenav a:hover {
+    background-color: purple;
+    color: lime;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidenav a {
+    margin-left: 20px;
+    color: white;
+}
+
+@media screen and (max-width:1000px ) {
+    .sidenav a {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}
+
+
+img {
+    border-radius: 40%;
+}
+
+.sidenav img {
+    width: 70px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 0px;
+    float: right;
+}
+
+h2 {
+    margin-top: 10px;
+    padding: 30px;
+    background-image: url( image22.png);
+    width: 100%;
+    font-family: latin;
+    color: lime;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table {
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+#duties {
+    margin-top: 90px;
+}
+
+    #duties .col-md-4:hover {
+        border-color: 1px solid orangered;
+        background-color: purple;
+    }
+
+p {
+    margin-left: 80px;
+    padding: 0px;
+}
+
+#footer {
+    background-image: url( image22.png);
+    color: white;
+    padding: 12px;
+    margin-top: 40px;
+}
+
+
+
+
+.fa {
+    color: lime;
+}
+
+
+
+
+
