@@ -319,9 +319,17 @@ h2 {
 
 
 
+@media screen and (max-width:1000px ) {
+    #skills {
+        height:600px;
+    }
+}
 
-
-
+@media screen and (max-width:400px ) {
+    #skills {
+        height:600px;
+    }
+}
 
 .contain {
     margin-left: 0px;
