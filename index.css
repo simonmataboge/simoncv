@@ -129,7 +129,7 @@ body
 @media screen and (max-width:400px ) {
     .right {
         margin-top: -20px;
-        margin-left: 80px;
+        margin-left: 40px;
     }
 }
 
@@ -240,7 +240,7 @@ h2 {
 
 @media screen and (max-width:1000px ) {
     #education {
-        margin-top: 395px;
+        margin-top: 15px;
     }
 }
 
@@ -262,7 +262,7 @@ h2 {
 }
 @media screen and (max-width:400px ) {
     .matric img {
-        margin-left: 300px;
+        margin-left: 100px;
     }
 }
 .col-md-6 {
