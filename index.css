@@ -260,7 +260,11 @@ h2 {
         margin-left: 250px;
     }
 }
-
+@media screen and (max-width:400px ) {
+    .matric img {
+        margin-left: 300px;
+    }
+}
 .col-md-6 {
     margin-left: 50px;
 }
@@ -268,14 +272,14 @@ h2 {
 @media screen and (max-width:1000px ) {
     .col-md-6 {
         margin-left: 5px;
-        width: 200px;
+        width: 400px;
     }
 }
 
 @media screen and (max-width:400px ) {
     .col-md-6 {
         margin-left: 5px;
-        width: 200px;
+        width: 400px;
     }
 }
 
@@ -306,8 +310,8 @@ h2 {
 
 @media screen and (max-width:400px ) {
     #education img {
-        width: 400px;
-        margin-left: 0px;
+        width: 300px;
+        margin-left: 50px;
         margin-top: 20px;
     }
 }
