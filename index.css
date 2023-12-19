@@ -279,7 +279,7 @@ h2 {
 @media screen and (max-width:400px ) {
     .col-md-6 {
         margin-left: 5px;
-        width: 400px;
+        width: 460px;
     }
 }
 
@@ -327,7 +327,8 @@ h2 {
 
 @media screen and (max-width:400px ) {
     #skills {
-        height:1000px;
+        height:800px;
+        width:470px;
     }
 }
 
