@@ -321,13 +321,14 @@ h2 {
 
 @media screen and (max-width:1000px ) {
     #skills {
-        height:1000px;
+        height:800px;
+		background-color: red;
     }
 }
 
 @media screen and (max-width:400px ) {
     #skills {
-        height:600px;
+        height:1000px;
     }
 }
 
@@ -430,10 +431,16 @@ h2 {
 @media screen and (max-width:1000px ) {
     .work {
         margin-left: 5px;
-        width: 100px;
+        width: 470px;
     }
 }
 
+@media screen and (max-width:1000px ) {
+    table{
+        margin-left: 5px;
+        width: 400px;
+    }
+}
 thead {
     font-size: 16px;
     background-color: lime;
