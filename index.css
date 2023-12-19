@@ -247,6 +247,7 @@ h2 {
 @media screen and (max-width:400px ) {
     #education {
         margin-top: 15px;
+        width:480px;
     }
 }
 
