@@ -1,16 +1,17 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 
-
-    <link rel="stylesheet" href="index.css" />
-    <script type="text/javascrpit" src="jquery-3.3.1.slim.min.js">
-    </script>
+	 <script type="text/javascript" src="jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="popper.min.js"></script>
     <script type="text/javascript" src="bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+	
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Home | DigCv</title>
 </head>
 
@@ -86,11 +87,20 @@
             </div>
         </div>
     </div>
-            <div id="education">
-                <div class="matric">
-                    <h2>Education</h2>
-                    <div class=" container text-center">
-                        <h3>Grade 12</h3>
+
+	
+    <div id="testimonials">
+        <div class="testimonials">
+<h2>Education</h2>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1" />
+                    <input type="radio" name="radio-btn" id="radio2" />
+                    <input type="radio" name="radio-btn" id="radio3" />
+                    <input type="radio" name="radio-btn" id="radio4" />
+
+                    <div class=" slide first">
+                        <div class="info">
                         <div class="col-md-6 skills-bar">
                             <p>Setswana HG (E)</p>
                             <div class="progress">
@@ -122,15 +132,11 @@
                             </div>
 
                         </div>
-                        <img alt="" src="matric.jpg" />
+							<img alt="" src="matric.jpg" />
                     </div>
-                </div>
-
-                <hr />
-
-                <div class="matric">
-                    <div class="container text-center">
-                        <h3>Information System Manager</h3>
+					</div>
+                    <div class=" slide">
+                        <div class="info">
                         <div class="col-md-6 skills-bar">
                             <p>Setswana HG (E)</p>
                             <div class="progress">
@@ -163,13 +169,10 @@
 
                         </div>
                         <img alt="" src="iq.jpg" />
+                        </div>
                     </div>
-                </div>
-                <hr />
-
-                <div class="matric">
-                    <div class="container text-center">
-                        <h3>ICT Office Professional</h3>
+                    <div class=" slide">
+                        <div class="info">
                         <div class="col-md-6 skills-bar">
                             <p>Operating Computer</p>
                             <div class="progress">
@@ -201,13 +204,10 @@
                             </div>
                         </div>
                         <img alt="" src="avuxheni.jpg" />
+                        </div>
                     </div>
-                </div>
-                <hr />
-
-                <div class="matric">
-                    <div class="container text-center">
-                        <h3>IT Professional</h3>
+                    <div class=" slide">
+                        <div class="info">
                         <div class="col-md-6 skills-bar">
                             <p>Server+</p>
                             <div class="progress">
@@ -239,10 +239,38 @@
                             </div>
                         </div>
                         <img alt="" src="it.jpg" />
+                        </div>
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
                     </div>
                 </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
             </div>
-            <hr />
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 4) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+        </div>
+    </div>
+
+	
+
 
 
             <div id="skills">
@@ -280,6 +308,8 @@
                     </div>
                 </div>
 	</div>
+
+	
 
                 <div id="work">
                     <h2>Work Experience</h2>
@@ -381,6 +411,54 @@
 
 
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
                 <div id="contact">
                     <h2>Get In Touch</h2>
